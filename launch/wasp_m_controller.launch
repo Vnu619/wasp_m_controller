@@ -1,0 +1,6 @@
+<launch>
+<node pkg="wasp_m_controller" name="Position" type="Position.py"/>
+<node pkg="wasp_m_controller" name="motor_FL" type="motor_FL.py"/>
+<node pkg="wasp_m_controller" name="motor_FR" type="motor_FR.py"/>
+<node pkg="wasp_m_controller" name="wasp_mini" type="WASP_Mini.py" output="screen"/>
+</launch>
